@@ -39,5 +39,5 @@
   * API openweathermap을 통해 현재 지역과 온도를 나타내준다. 사용자가 처음 사이트에 접속하면 현재
   위치에 접근할 수 있는지의 여부를 묻는 경고창을 띄운다. 
 
-### 링크
+### 3. 링크
 * https://dongmin3891.github.io/todolist/
