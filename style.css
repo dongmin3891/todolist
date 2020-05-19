@@ -1,66 +1,66 @@
-body{
-  background-color:#2c3e50;
-  color:white;
-
-
+body {
+  background-color: #2c3e50;
+  color: white;
 }
-.headTitle{
+.headTitle {
   text-align: center;
   font-size: 100px;
 }
 
 button {
-  cursor:pointer;
+  cursor: pointer;
   font-size: 13px;
-  color:#FE2EF7;
-  background-color: #D7DF01;
+  color: #fe2ef7;
+  background-color: #d7df01;
 }
-.js-clock{
+.js-clock {
   text-align: right;
   font-size: 20px;
 }
-.js-weather{
+.js-weather {
   display: block;
   text-align: right;
   font-size: 40px;
 }
-h4{
+h4 {
   text-align: center;
   font-size: 20px;
 }
-.ulCenter{
-text-align: center;
-}
-ul{
-  display: inline-block;
-
-}
-ul li{
-  text-align: left;
-}
-.js-toDoForm{
+.ulCenter {
   text-align: center;
 }
-.clicked{
+ul {
+  display: inline-block;
+}
+ul li {
+  text-align: left;
+}
+.js-toDoForm {
+  text-align: center;
+}
+
+.js-form {
+  text-align: center;
+}
+
+.clicked {
   color: #7f8c8d;
 }
 
 .form,
-.greetings{
+.greetings {
   display: none;
 }
 
-.showing{
+.showing {
   display: block;
 }
 
-h1{
-
+h1 {
 }
 
-
 @keyframes fadeIn {
-  from{
+  from {
     opacity: 0;
   }
   to {
@@ -75,6 +75,5 @@ h1{
   width: 100%;
   height: 100%;
   z-index: -1;
-  animation: fadeIn .5s linear;
-
+  animation: fadeIn 0.5s linear;
 }
